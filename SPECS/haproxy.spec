@@ -167,6 +167,9 @@ fi
 %attr(0644,root,root) %config %{_sysconfdir}/rsyslog.d/49-%{name}.conf
 
 %changelog
+* Thu Feb 2 2017 Joseph Copenhaver <joseph.copenhaver@gmail.com>
+- Update for HAproxy 1.7.2 - Removed datext from logrotate
+
 * Sun Jan 15 2017 David Bezemer <info@davidbezemer.nl>
 - Update for HAproxy 1.7.2
 
